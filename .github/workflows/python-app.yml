@@ -44,7 +44,7 @@ jobs:
       - name: checkout the code
         uses: actions/checkout@v3
       - name: Build the docker image
-        uses: ocker/build-push-action@v5.0.0
+        uses: docker/build-push-action@v5.0.0
         with:
           username: ${{secrets.DockerUsername }}
           password: $ {{secrets.DockerPassword }}
