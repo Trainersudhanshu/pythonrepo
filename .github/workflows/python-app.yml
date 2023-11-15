@@ -37,7 +37,6 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
-              - name: Build and push Docker images
 
   build-and-push-image-to-dockerhub:
     runs-on: ubuntu-latest
